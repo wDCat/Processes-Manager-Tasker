@@ -1,0 +1,2 @@
+// JavaScript Document
+flash("Hello");

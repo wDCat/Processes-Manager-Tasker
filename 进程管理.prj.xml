@@ -1,0 +1,173 @@
+<TaskerData sr="" dvi="1" tv="4.7m">
+	<dmetric>1080.0,1776.0</dmetric>
+	<Project sr="proj0" ve="2">
+		<cdate>1439282899460</cdate>
+		<name>进程管理</name>
+		<scenes>进程列表</scenes>
+		<tids>7,11,8,9,5,6</tids>
+	</Project>
+	<Scene sr="scene进程列表">
+		<cdate>1439282937249</cdate>
+		<edate>1440309917775</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>进程列表</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1080,1776,0,0,1077,1375</geom>
+			<Str sr="arg0" ve="3">html</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">about:black</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF758FC1</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>7</clickTask>
+			<flags>4</flags>
+			<geom>377,1625,375,151,377,1450,375,325</geom>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00FFFFFF</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">进程列表</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task11">
+		<cdate>1439727557685</cdate>
+		<edate>1440309577588</edate>
+		<id>11</id>
+		<nme>wPm_close</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">进程列表</Str>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1439283054497</cdate>
+		<edate>1440309923315</edate>
+		<id>5</id>
+		<nme>进程管理</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">进程列表</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">进程列表</Str>
+			<Str sr="arg1" ve="3">html</Str>
+			<Int sr="arg2" val="6"/>
+			<Str sr="arg3" ve="3">file://mnt//sdcard//process//main.html</Str>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1439655124441</cdate>
+		<edate>1440309576218</edate>
+		<id>6</id>
+		<nme>wPm_reload</nme>
+		<Action sr="act0" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">进程列表</Str>
+			<Str sr="arg1" ve="3">html</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1439644192663</cdate>
+		<edate>1439644192663</edate>
+		<id>7</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">进程列表</Str>
+			<Str sr="arg1" ve="3">html</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">进程列表</Str>
+			<Str sr="arg1" ve="3">html</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task8">
+		<cdate>1440309930256</cdate>
+		<edate>1440309940827</edate>
+		<id>8</id>
+		<nme>by DCat</nme>
+		<Action sr="act0" ve="7">
+			<code>697</code>
+			<on>false</on>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1439307129477</cdate>
+		<edate>1440309574866</edate>
+		<id>9</id>
+		<nme>getappname</nme>
+		<Action sr="act0" ve="7">
+			<code>344</code>
+			<Int sr="arg0" val="8"/>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Str sr="arg2" ve="3">%PCGAN</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%RESULT</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
